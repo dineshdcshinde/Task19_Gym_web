@@ -309,7 +309,7 @@ nav .right {
 }
 
 .crunh-head2{
-  padding-top: 4%;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -347,7 +347,8 @@ nav .right {
 .philo{
   text-align: center;
   font-size:1.8rem;
-  margin-bottom: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   color: 
   #1c0e6c;
 }
@@ -356,5 +357,36 @@ nav .right {
   display: flex;
   gap: 1%;
   justify-content: space-around;
+  height: 50%;
+  max-width: 90%;
+  margin: 0 auto;
   align-items: center;
+  color: 
+  #1c0e6c;
+}
+
+ .philo-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1%;
+  height: 70%;
+  max-width: 25%;
+  padding: 1%;
+
+}
+.philo-item img{
+  height: 70px;
+  width: 70px;
+  /* margin-bottom: 3%; */
+}
+
+.philo-item p{
+  margin-top: 3%;
+}
+.philo-item h3{
+  font-size: 1.3rem;
+  margin-top: 3%;
+  text-align: center;
 }
